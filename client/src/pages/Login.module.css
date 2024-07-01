@@ -1,0 +1,91 @@
+.mainContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .leftContainer {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 40px;
+  }
+  
+  .rightContainer {
+    flex: 2;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 150px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50%;
+  }
+  
+  .subtitle {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .loginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .loginForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signUp {
+    margin-bottom: 20px;
+  }
+  
+  .signUp a {
+    color: #121212;
+  }
+  
+  .mainContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .customFont {
+    font-family: 'freehand', sans-serif; /* Replace 'YourCustomFont' with the actual font name */
+  }
+  
+  .mainContainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgotPassword {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 768px) {
+    .mainContainer {
+      flex-direction: column;
+    }
+  
+    .leftContainer, .rightContainer {
+      flex: auto;
+      width: auto;
+    }
+  }
+  
